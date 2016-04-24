@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Кафедра германських мов і перекладознавства</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+  </head>
+  <body ng-app="kafedraApp">
+      <header>
+         <div class="container">
+            <div class="well text-center">
+               <h1 class="text-primary">Кафедра германських мов і перекладознавства</h1>
+            </div>
+
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#/">Про кафедру <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#/sklad">Склад кафедри</a></li>
+                    <li><a href="#/activities">Наукова діяльність</a></li>
+                    <li><a href="#/eresourse">Електронний навчальний ресурс</a></li>
+                    <li><a href="#/students">Студентам</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+         </div>
+      </header>
+
+      <section>
+         <div class="container">
+            <div ng-view=""></div>
+         </div>
+      </section>
+      <footer>
+         <div class="container">
+            <div class="row row-footer">
+               <div class="col-xs-3 col-xs-offset-1">
+                  <i class="fa fa-envelope" aria-hidden="true"></i> Кафедра германських мов і перекладознавства<br>кімн. 312, 3-й поверх, вул. Леся Курбаса, 2<br>м.Дрогобич, Львіська область, 82100<br>
+               </div>
+               <div class="col-xs-4 text-center">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i> translation2016@meta.ua<br><br>
+                  <i class="fa fa-phone" aria-hidden="true"></i> +38 09674 46 249,<br> +38 096 91 52 433<br>
+               </div>
+               <div class="col-xs-4">
+
+               </div>
+            </div>
+         </div>
+      </footer>
+
+    <!-- jQuery (потрібно для JavaScript плагінів Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Підключення мінімізованої збірки всіх плагінів jQuery. Можна підключати додаткові плагіни, якщо потрібно -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/controllers/main.js"></script>
+  </body>
+</html>
