@@ -1,5 +1,6 @@
 <div class="row">
    <h3>Склад кафедри</h3>
+<<<<<<< HEAD
    <p><em><strong>Бабелюк Оксана Андріївна</p></em></strong>
  <p><strong>Науковий ступінь, вчене звання</strong><br>
  доктор філологічних наук, професор</p>
@@ -15,6 +16,20 @@
 За відповідні наукові здобутки відзначена міжнародним бібліографічним центром "The 20th Century Award for Achievement" – International Biographical Centre, Cambridge, England (1997 р.).<br>
 Авторка більше 100 публікацій, з них 97 наукового та 6 навчально-методичного характеру, у тому числі 1 монографія, 61стаття  у фахових виданнях України та 1 підручник з грифом МОН України. </p>
 <p><strong>Професійний і науковий інтереси:</p></strong>
+=======
+   <div class="panel panel-default" ng-repeat="person in sklad.personnel">
+      <div class="panel-heading"><em><strong>{{person.name}}</strong></em></div>
+      <div class="panel-body">
+         <p><strong>Науковий ступінь, вчене звання:</strong><br> {{person.degree}}</p>
+         <p><strong>Обов’язки/Дисципліни, що викладає:</strong></p>
+            <ol>
+               <li ng-repeat="subject in person.subjects">{{subject}}</li>
+            </ol>
+         <p><strong>Біографія</strong><br>{{person.biography}}</p>
+         <p><strong>Професійний і науковий інтереси:</strong> {{person.interests}}</p>
+      </div>
+   </div>
+>>>>>>> 4e731be8d0785dd6db2560aebab3ac16912186b2
 </div>
 
 <div class="row">
