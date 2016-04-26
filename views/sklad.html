@@ -1,5 +1,9 @@
 <div class="row">
-   <h3>Склад кафедри</h3>
+   <ol class="breadcrumb">
+      <li><a href="http://rgf.drohobych.net">Інститут іноземних мов</a></li>
+      <li><a href="http://rgf.drohobych.net/content/kaf-germ">Кафедра германських мов і перекладознавства</a></li>
+      <li class="active">Склад кафедри</li>
+   </ol>
    <div class="panel panel-default" ng-repeat="person in sklad.personnel">
       <div class="panel-heading"><em><strong>{{person.name}}</strong></em></div>
       <div class="panel-body">
@@ -12,4 +16,3 @@
          <p><strong>Професійний і науковий інтереси:</strong> {{person.interests}}</p>
       </div>
    </div>
-   
