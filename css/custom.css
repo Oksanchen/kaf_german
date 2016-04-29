@@ -1,14 +1,27 @@
-.row-footer {
-   margin: 50px auto;
+body {
+   background-color: #f6e691;
+
 }
 
 .header {
+   color: #007966;
+   font-family: Arial, sans-serif;
    text-align: center;
    background-image: url(../images/background.jpg);
    background-position: top;
    padding: 100px 0px 0px 0px;
 }
 
+.row-footer {
+   background-color: #ffc621;
+   padding: 20px;
+   margin: 50px auto;
+}
+
 .navbar-default {
    border-radius: 0px;
+}
+
+.no-bullets {
+   list-style: none;
 }
