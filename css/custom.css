@@ -1,6 +1,14 @@
 body {
    background-color: #f6e691;
+}
 
+a:link, a:visited {
+   color: #019879;
+}
+
+a:hover, a:active {
+   color: #007966;
+   text-decoration: none;
 }
 
 .header {
@@ -13,7 +21,7 @@ body {
 }
 
 .row-footer {
-   background-color: #ffc621;
+   background-color: #c8f7c5;
    padding: 20px;
    margin: 50px auto;
 }
