@@ -4,11 +4,11 @@ body {
 }
 
 .header {
-   color: #007966;
+   color: #ffc621;
    font-family: Arial, sans-serif;
    text-align: center;
    background-image: url(../images/background.jpg);
-   background-position: top;
+   background-position: bottom;
    padding: 100px 0px 0px 0px;
 }
 
