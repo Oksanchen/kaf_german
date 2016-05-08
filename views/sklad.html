@@ -8,6 +8,7 @@
       <div class="panel panel-default" ng-repeat="person in sklad.personnel">
          <div class="panel-heading"><em><strong>{{person.name}}</strong></em></div>
          <div class="panel-body">
+            <img ng-src="{{person.image}}" class="personnel-images" />
             <p><strong>Науковий ступінь, вчене звання:</strong><br> {{person.degree}}</p>
             <p><strong>Обов’язки/Дисципліни, що викладає:</strong></p>
                <ol>
