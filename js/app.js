@@ -29,6 +29,11 @@
           controller: 'StudentsCtrl',
           controllerAs: 'students'
        })
+       .when('/anons', {
+         templateUrl: 'views/anons.html',
+         controller: 'AnonsCtrl',
+         controllerAs: 'anons'
+         
        .otherwise({
          redirectTo: '/'
        });
