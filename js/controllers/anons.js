@@ -11,7 +11,6 @@
       }, {
       name: 'Cтудентська наукова конференція',
       biography: '<a href="files/oholoshenna.docx">Оголошення</a>',
-      
       }, {
       name: 'Cтудентська наукова конференція',
       biography: '',
