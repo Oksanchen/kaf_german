@@ -10,11 +10,11 @@
       image: 'images/stkon1.jpg','images/stkon2.jpg'
       }, {
       name: 'Cтудентська наукова конференція',
-      biography: '<strong><a href="files/oholoshenna.docx">Cтудентська наукова конференція - 11.05.2016р. о 10.00</a></strong>',
+      biography: '',
       image: ''
       }, {
       name: 'Cтудентська наукова конференція',
-      biography: '<strong><a href="files/oholoshenna.docx">Cтудентська наукова конференція - 11.05.2016р. о 10.00</a></strong>',
+      biography: '',
       image: ''
    }];
 
