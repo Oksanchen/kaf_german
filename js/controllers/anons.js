@@ -10,8 +10,8 @@
       image: 'images/stkon1.jpg','images/stkon2.jpg',
       }, {
       name: 'Cтудентська наукова конференція',
-      biography: '',
-      image: '',
+      biography: '<a href="files/oholoshenna.docx">Оголошення</a>',
+      
       }, {
       name: 'Cтудентська наукова конференція',
       biography: '',
