@@ -6,7 +6,12 @@ body {
     margin-left: 5px;
 
 }
-
+.btn {
+background-color: #ffecb3;
+}
+.dropdown-menu li {
+background-color: #f6e691;
+}
 .container {
 
     width: 780px,;
